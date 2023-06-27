@@ -1,0 +1,16 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true
+  },
+  "extends": "@mate-academy/eslint-config",
+  "overrides": [],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "no-console": "off"
+  }
+}
